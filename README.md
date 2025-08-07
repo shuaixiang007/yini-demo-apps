@@ -5,7 +5,7 @@ Simple example for the [YINI](https://github.com/YINI-lang/YINI-spec) configurat
 
 The demo is intended to show usage how to use a YINI config file in an environment. The example is kept basic and pretty straightforward to follow.
 
-- Basic example config in **pure JavaScript** `using require`: [js-cjs/basic/](./js-cjs/basic/)
+- Basic example config in **pure JavaScript** using `require`: [js-cjs/basic/](./js-cjs/basic/)
 
 Feel free to browse, copy, or adapt the code if you wish.
 
