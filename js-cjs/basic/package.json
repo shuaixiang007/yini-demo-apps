@@ -1,7 +1,7 @@
 {
-    "name": "yini-demo-app-js-basic",
+    "name": "yini-demo-app-js-cjs-basic",
     "version": "1.0.0",
-    "description": "Demo app for YINI config file with a simple web server config in pure JavaScript.",
+    "description": "Demo app for YINI config file with a simple web server config file using CommonJS (require) in JavaScript.",
     "main": "index.js",
     "type": "commonjs",
     "scripts": {
@@ -10,6 +10,6 @@
     "dependencies": {
         "yini-parser": "^1.0.1-beta"
     },
-    "keywords": ["yini", "demo", "config", "javascript"],
+    "keywords": ["yini", "demo", "config", "javascript", "cjs", "parse", "configuration"],
     "license": "MIT"
 }

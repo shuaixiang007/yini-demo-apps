@@ -1,12 +1,18 @@
-# YINI Demo App
-Example projects demonstrating usage of YINI configuration files.
+# YINI Demo Apps
+Example projects demonstrating usage of [YINI](https://github.com/YINI-lang/YINI-spec) configuration files.
 
-Simple example for the [YINI](https://github.com/YINI-lang/YINI-spec) configuration format.
+The demos are intended to show usage how to load and work with a YINI config file in different environments. The examples are kept basic and pretty straightforward to follow.
 
-The demo is intended to show usage how to use a YINI config file in an environment. The example is kept basic and pretty straightforward to follow.
+## Demos
+Feel free to browse, copy, or adapt the code if you find it useful.
 
-- Basic example config in **pure JavaScript**: [/js-cjs/basic](./js-cjs/basic/) (using `require`)
+### JavaScript
+- **JavaScript - CommonJS example** (using `require`):  
+    [/js-cjs/basic](./js-cjs/basic/)
+- **JavaScript - ES Module example** (using `import`):  
+    [/js-esm/basic](./js-esm/basic/)
 
-Feel free to browse, copy, or adapt the code if you wish.
+### TypeScript
+- *Coming soon*
 
 ---

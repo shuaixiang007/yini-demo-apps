@@ -1,9 +1,9 @@
 /*
     This script loads and parses a config.yini
-    file then prints its contents using CommonJS.
+    file then prints its contents using ES Modules.
 */
 
-const YINI = require('yini-parser');
+import YINI from 'yini-parser';
 
 // Filename includng path to your config file.
 const file = './config.yini'
