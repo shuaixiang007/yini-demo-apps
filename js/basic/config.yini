@@ -1,0 +1,14 @@
+^ App
+    title = 'My App'
+    items = 25
+    debug = ON
+
+^ Server
+    host = 'localhost'
+    port = 8080
+    useTLS = OFF
+
+    // Sub-section of Server
+    ^^ Login
+        username = 'user'
+        password = 'secret'

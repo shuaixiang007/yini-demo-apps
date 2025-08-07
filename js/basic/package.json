@@ -1,0 +1,12 @@
+{
+  "name": "yini-demo-app-js-basic",
+  "version": "1.0.0",
+  "description": "Demo app for YINI config file with a simple web server config in pure JavaScript.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["yini", "demo", "config", "javascript"],
+  "license": "MIT"
+}
