@@ -10,5 +10,5 @@
 
     // Sub-section of Server
     ^^ Login
-        username = 'user'
+        username = 'user3'
         password = 'secret'

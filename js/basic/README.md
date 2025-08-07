@@ -7,4 +7,18 @@ This folder contains a simple demo of how to use a YINI config file in a JavaScr
 
 The example uses a sample `config.yini` file and a small JavaScript script to read and print its contents.
 
+## Usage
+Usage of this example found in dir `js/basic/`.
+
+### Installation
+In console/terminal run:
+```bash 
+npm install
+```
+
+### Run the Example
+```bash
+npm start
+```
+
 ---
