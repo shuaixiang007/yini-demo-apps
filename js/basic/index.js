@@ -1,3 +1,8 @@
+/*
+    This script loads and parses a config.yini
+    file, then prints its contents.
+*/
+
 const path = require('path');
 const YINI = require('yini-parser');
 
@@ -5,20 +10,23 @@ const YINI = require('yini-parser');
 const file = path.join(__dirname, 'config.yini');
 
 try {
-    // Parse the YINI file.
-    const parsed = YINI.parseFile(file);
+    // Parse the YINI config file.
+    const config = YINI.parseFile(file);
 
-    // If you want to parse in strict-mode, replace above with the below:
-    // const parsed = YINI.parseFile(file, true);
+    // If you want to parse the file in strict mode, use this line instead:
+    // const config = YINI.parseFile(file, true);
 
     // Print some value in the config.
-    console.log('Title = '+parsed.App.title)
-    console.log('UserName = '+parsed.Server.Login.username)
+    console.log('Title = '+config.App.title)
+    console.log('UserName = '+config.Server.Login.username)
     console.log()
 
-    // Print the full result.
+    // Print the result.
     console.log('Parsed config:');
-    console.log(JSON.stringify(parsed, null, 2));
+    console.log(config)
+
+    console.log('Parsed config as JSON:');
+    console.log(JSON.stringify(config, null, 2));
 } catch (error) {
     console.error('Error parsing config.yini:', error.message);
 }
