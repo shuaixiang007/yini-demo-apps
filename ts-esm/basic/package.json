@@ -1,0 +1,27 @@
+{
+    "name": "yini-demo-app-ts-esm-basic",
+    "version": "1.0.0",
+    "description": "Demo app for YINI config file with a simple web server config file using ES Modules (import) in TypeScript.",
+    "main": "dist/index.js",
+    "type": "module",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/index.js"
+    },
+    "dependencies": {
+        "yini-parser": "^1.0.1-beta"
+    },
+    "devDependencies": {
+        "typescript": "^5.9.2"
+    },    
+    "keywords": [
+        "yini",
+        "demo",
+        "typescript",
+        "javascript",
+        "esm",
+        "parse",
+        "configuration"
+    ],
+    "license": "MIT"
+}
