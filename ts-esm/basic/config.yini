@@ -1,3 +1,5 @@
+// This is a comment
+
 ^ App
     title = 'My App'
     items = 25
