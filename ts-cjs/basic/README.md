@@ -1,4 +1,4 @@
-# TypeScript Basic Demo - ESM
+# TypeScript Basic Demo - CommonJS
 
 This directory contains a simple demo showing how to use a [YINI config](https://github.com/YINI-lang) file with [yini-parser](https://github.com/YINI-lang/yini-parser-typescript) in a TypeScript project using `import` (ESM).
 
@@ -8,7 +8,7 @@ This directory contains a simple demo showing how to use a [YINI config](https:/
 The example includes a sample `config.yini` file and a small TypeScript script that reads and prints its contents.
 
 ## Usage
-This example is located in `/ts-esm/basic/index.ts`.
+This example is located in `/ts-cjs/basic/index.ts`.
 
 ### Installation
 Run in your terminal:
