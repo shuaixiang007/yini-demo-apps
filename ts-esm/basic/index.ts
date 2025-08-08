@@ -5,12 +5,9 @@
 
 import  YINI from 'yini-parser';
 
-// Filename includng path to your config file.
-const file = './config.yini'
-
 try {
     // Parse the YINI config file.
-    const config = YINI.parseFile(file);
+    const config = YINI.parseFile('./config.yini');
 
     // If you want to parse the file in strict mode, use this line instead:
     // const config = YINI.parseFile(file, true);
