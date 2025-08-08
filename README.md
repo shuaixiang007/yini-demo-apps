@@ -15,9 +15,9 @@ Feel free to browse, copy, or adapt the code if you find it useful.
   [/js-esm/basic](./js-esm/basic/)
 
 ### TypeScript
-- **TypeScript - CommonJS example**:  
+- **TypeScript - CommonJS example** (using `import`):  
   [/ts-cjs/basic](./ts-cjs/basic/)
-- **TypeScript - ES Module example**:  
+- **TypeScript - ES Module example** (using `import`):  
   [/ts-esm/basic](./ts-esm/basic/)
 
 ---
